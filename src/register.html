@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - BeautyApp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container register-screen">
+        <div class="form-container">
+            <h2>Cadastro</h2>
+            <form id="registerForm">
+                <div class="input-group">
+                    <input type="text" id="registerName" placeholder="Nome completo" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="registerEmail" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <input type="tel" id="registerPhone" placeholder="Telefone" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="registerPassword" placeholder="Senha" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="confirmPassword" placeholder="Confirmar senha" required>
+                </div>
+                <div class="terms">
+                    <label>
+                        <input type="checkbox" id="termsCheckbox" required>
+                        Concordo com os termos
+                    </label>
+                </div>
+                <button type="submit" class="btn-primary">Cadastrar</button>
+            </form>
+            <div class="switch-form">
+                <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+

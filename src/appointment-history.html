@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórico de Agendamentos - BeautyApp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container history-screen">
+        <header>
+            <div class="header-content">
+                <div class="back-icon" onclick="history.back()">←</div>
+                <h1>Histórico de Agendamentos</h1>
+                <div class="profile-icon">
+                    <img src="images/profile default.jpg" alt="Profile" class="profile-img">
+                </div>
+            </div>
+        </header>
+
+        <div class="history-list">
+            <div class="history-item completed">
+                <div class="service-info">
+                    <h4>Lavagem de cabelo</h4>
+                    <p>Ter, Tarde às 14h00</p>
+                    <span class="specialist">Com Doe John</span>
+                </div>
+                <div class="service-status">
+                    <span class="status-badge completed">Concluído</span>
+                    <span class="service-price">R$40</span>
+                </div>
+            </div>
+
+            <div class="history-item completed">
+                <div class="service-info">
+                    <h4>Maquiagem</h4>
+                    <p>Seg, Manhã às 09h00</p>
+                    <span class="specialist">Com Lucy</span>
+                </div>
+                <div class="service-status">
+                    <span class="status-badge completed">Concluído</span>
+                    <span class="service-price">R$80</span>
+                </div>
+            </div>
+
+            <div class="history-item upcoming">
+                <div class="service-info">
+                    <h4>Corte de cabelo</h4>
+                    <p>Qui, Tarde às 15h00</p>
+                    <span class="specialist">Com Lara</span>
+                </div>
+                <div class="service-status">
+                    <span class="status-badge upcoming">Agendado</span>
+                    <span class="service-price">R$50</span>
+                </div>
+            </div>
+
+            <div class="history-item cancelled">
+                <div class="service-info">
+                    <h4>Massagem relaxante</h4>
+                    <p>Sex, Noite às 18h00</p>
+                    <span class="specialist">Com Maria</span>
+                </div>
+                <div class="service-status">
+                    <span class="status-badge cancelled">Cancelado</span>
+                    <span class="service-price">R$120</span>
+                </div>
+            </div>
+
+            <div class="history-item completed">
+                <div class="service-info">
+                    <h4>Tratamento facial</h4>
+                    <p>Dom, Manhã às 10h00</p>
+                    <span class="specialist">Com Ana</span>
+                </div>
+                <div class="service-status">
+                    <span class="status-badge completed">Concluído</span>
+                    <span class="service-price">R$90</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="history-summary">
+            <div class="summary-card">
+                <h3>Resumo do mês</h3>
+                <div class="summary-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Serviços</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">R$ 420</span>
+                        <span class="stat-label">Total gasto</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Agendados</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="bottom-nav">
+            <div class="nav-item" onclick="window.location.href='home.html'">
+                <span>🏠</span>
+                <span>Home</span>
+            </div>
+            <div class="nav-item" onclick="window.location.href='agenda.html'">
+                <span>📅</span>
+                <span>Agenda</span>
+            </div>
+            <div class="nav-item active">
+                <span>📋</span>
+                <span>Pedidos</span>
+            </div>
+            <div class="nav-item" onclick="window.location.href='profile.html'">
+                <span>👤</span>
+                <span>Perfil</span>
+            </div>
+        </nav>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+

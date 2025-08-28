@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendamento - BeautyApp</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container agenda-screen">
+      <header>
+        <div class="header-content">
+          <div class="back-icon" onclick="history.back()">←</div>
+          <h1>Agendamento</h1>
+          <div class="profile-icon">
+            <img src="images/profile default.jpg" alt="Profile" class="profile-img" />
+          </div>
+        </div>
+      </header>
+
+      <div class="calendar-section">
+        <div class="month-header">
+          <button class="month-nav" id="prevMonth">‹</button>
+          <h2 id="currentMonth">Abril</h2>
+          <button class="month-nav" id="nextMonth">›</button>
+        </div>
+
+        <div class="calendar-grid">
+          <div class="day-header">Seg</div>
+          <div class="day-header">Ter</div>
+          <div class="day-header">Qua</div>
+          <div class="day-header">Qui</div>
+          <div class="day-header">Sex</div>
+          <div class="day-header">Sáb</div>
+          <div class="day-header">Dom</div>
+
+          <div class="day-cell empty"></div>
+          <div class="day-cell">1</div>
+          <div class="day-cell selected">2</div>
+          <div class="day-cell">3</div>
+          <div class="day-cell">4</div>
+          <div class="day-cell">5</div>
+          <div class="day-cell">6</div>
+
+          <div class="day-cell">7</div>
+          <div class="day-cell">8</div>
+          <div class="day-cell">9</div>
+          <div class="day-cell">10</div>
+          <div class="day-cell">11</div>
+          <div class="day-cell">12</div>
+          <div class="day-cell">13</div>
+
+          <div class="day-cell">14</div>
+          <div class="day-cell">15</div>
+          <div class="day-cell">16</div>
+          <div class="day-cell">17</div>
+          <div class="day-cell">18</div>
+          <div class="day-cell">19</div>
+          <div class="day-cell">20</div>
+
+          <div class="day-cell">21</div>
+          <div class="day-cell">22</div>
+          <div class="day-cell">23</div>
+          <div class="day-cell">24</div>
+          <div class="day-cell">25</div>
+          <div class="day-cell">26</div>
+          <div class="day-cell">27</div>
+
+          <div class="day-cell">28</div>
+          <div class="day-cell">29</div>
+          <div class="day-cell">30</div>
+          <div class="day-cell empty"></div>
+          <div class="day-cell empty"></div>
+          <div class="day-cell empty"></div>
+          <div class="day-cell empty"></div>
+        </div>
+      </div>
+
+      <div class="time-slots">
+        <h3>Manhã</h3>
+        <div class="time-grid">
+          <button class="time-slot">9:00</button>
+          <button class="time-slot">10:00</button>
+          <button class="time-slot">11:00</button>
+        </div>
+
+        <h3>Tarde</h3>
+        <div class="time-grid">
+          <button class="time-slot">1:00</button>
+          <button class="time-slot">2:00</button>
+          <button class="time-slot">3:00</button>
+        </div>
+
+        <h3>Noite</h3>
+        <div class="time-grid">
+          <button class="time-slot">4:00</button>
+          <button class="time-slot">5:00</button>
+          <button class="time-slot">6:00</button>
+        </div>
+      </div>
+
+      <div class="specialist-selection">
+        <h3>Escolha o cabeleireiro</h3>
+        <div class="specialist-options">
+          <div class="specialist-option">
+            <img src="images/DOEJOHN.jpg" alt="Doe John" />
+            <div class="specialist-details">
+              <h4>Doe John</h4>
+              <div class="rating">★★★★★</div>
+              <span class="price">R$40</span>
+            </div>
+          </div>
+          <div class="specialist-option">
+            <img src="images/LUCY.jpg" alt="Lucy" />
+            <div class="specialist-details">
+              <h4>Lucy</h4>
+              <div class="rating">★★★★★</div>
+              <span class="price">R$45</span>
+            </div>
+          </div>
+          <div class="specialist-option">
+            <img src="images/lara.png.jpg" alt="Lara" />
+            <div class="specialist-details">
+              <h4>Lara</h4>
+              <div class="rating">★★★★★</div>
+              <span class="price">R$50</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="payment.html">
+        <button class="btn-primary schedule-btn">Agendar horário</button>
+      </a>
+
+      <nav class="bottom-nav">
+        <div class="nav-item" onclick="window.location.href='home.html'">
+          <span>🏠</span>
+          <span>Home</span>
+        </div>
+        <div class="nav-item active">
+          <span>📅</span>
+          <span>Agenda</span>
+        </div>
+        <div class="nav-item">
+          <span>📋</span>
+          <span>Pedidos</span>
+        </div>
+        <div class="nav-item" onclick="window.location.href='profile.html'">
+          <span>👤</span>
+          <span>Perfil</span>
+        </div>
+      </nav>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

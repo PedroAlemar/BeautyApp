@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento - BeautyApp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container payment-screen">
+        <header>
+            <div class="header-content">
+                <div class="back-icon" onclick="history.back()">←</div>
+                <h1>Resumo</h1>
+                <div class="profile-icon">
+                    <img src="images/profile default.jpg" alt="Profile" class="profile-img">
+                </div>
+            </div>
+        </header>
+
+        <div class="specialist-summary">
+            <div class="specialist-card">
+                <img src="images/specialist1.jpg" alt="Doe John" class="specialist-avatar">
+                <div class="specialist-details">
+                    <h3>Doe John</h3>
+                    <p>1 ano</p>
+                    <div class="rating">★★★★★</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="appointment-details">
+            <h3>Histórico de Agendamentos</h3>
+            <div class="service-item">
+                <div class="service-info">
+                    <h4>Lavagem de cabelo</h4>
+                    <p>Ter, Tarde às 14h00</p>
+                </div>
+                <span class="service-price">R$40</span>
+            </div>
+            
+            <div class="service-item">
+                <div class="service-info">
+                    <h4>Maquiagem</h4>
+                    <p>Seg, Manhã às 09h00</p>
+                </div>
+                <span class="service-price">R$80</span>
+            </div>
+        </div>
+
+        <div class="payment-summary">
+            <h3>Preço total:</h3>
+            <div class="price-breakdown">
+                <div class="price-item">
+                    <span>Subtotal</span>
+                    <span>R$120</span>
+                </div>
+                <div class="price-item">
+                    <span>Taxa de serviço</span>
+                    <span>R$12</span>
+                </div>
+                <div class="price-item">
+                    <span>Desconto</span>
+                    <span class="discount">-R$10</span>
+                </div>
+                <div class="price-total">
+                    <span>Total</span>
+                    <span>R$42,5</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="payment-method">
+            <h3>Pagamento</h3>
+            <div class="payment-options">
+                <div class="payment-option selected">
+                    <div class="payment-icon">
+                        <img src="images/mastercard.png" alt="Mastercard" class="card-icon">
+                    </div>
+                    <div class="payment-info">
+                        <span>**** **** **** 9036</span>
+                        <p>Mastercard</p>
+                    </div>
+                    <div class="payment-radio">
+                        <input type="radio" name="payment" checked>
+                    </div>
+                </div>
+                
+                <div class="payment-option">
+                    <div class="payment-icon">💳</div>
+                    <div class="payment-info">
+                        <span>Adicionar cartão</span>
+                        <p>Novo método de pagamento</p>
+                    </div>
+                    <div class="payment-radio">
+                        <input type="radio" name="payment">
+                    </div>
+                </div>
+                
+                <div class="payment-option">
+                    <div class="payment-icon">💰</div>
+                    <div class="payment-info">
+                        <span>Dinheiro</span>
+                        <p>Pagar na hora</p>
+                    </div>
+                    <div class="payment-radio">
+                        <input type="radio" name="payment">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn-primary payment-btn">Agendar Agora/ R$42,5</button>
+
+        <nav class="bottom-nav">
+            <div class="nav-item" onclick="window.location.href='home.html'">
+                <span>🏠</span>
+                <span>Home</span>
+            </div>
+            <div class="nav-item" onclick="window.location.href='agenda.html'">
+                <span>📅</span>
+                <span>Agenda</span>
+            </div>
+            <div class="nav-item">
+                <span>📋</span>
+                <span>Pedidos</span>
+            </div>
+            <div class="nav-item" onclick="window.location.href='profile.html'">
+                <span>👤</span>
+                <span>Perfil</span>
+            </div>
+        </nav>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+

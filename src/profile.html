@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - BeautyApp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container profile-screen">
+        <header>
+            <div class="header-content">
+                <div class="back-icon" onclick="history.back()">←</div>
+                <h1>Configurações</h1>
+                <div class="profile-icon">
+                    <img src="images/profile default.jpg" alt="Profile" class="profile-img">
+                </div>
+            </div>
+        </header>
+
+        <div class="profile-info">
+            <div class="profile-avatar">
+                <img src="images/lucyano.jpg" alt="lucyano" class="avatar-img">
+            </div>
+            <h2 class="profile-name">Doe John</h2>
+        </div>
+
+        <div class="profile-menu">
+            <div class="menu-section">
+                <div class="menu-item" onclick="window.location.href='account-info.html'">
+                    <div class="menu-icon">👤</div>
+                    <div class="menu-text">
+                        <h4>Informações da conta</h4>
+                        <p>Editar dados pessoais</p>
+                    </div>
+                    <div class="menu-arrow">›</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-icon">🌐</div>
+                    <div class="menu-text">
+                        <h4>Idioma</h4>
+                        <p>Português (Brasil)</p>
+                    </div>
+                    <div class="menu-arrow">›</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-icon">🌙</div>
+                    <div class="menu-text">
+                        <h4>Modo escuro</h4>
+                        <p>Ativar tema escuro</p>
+                    </div>
+                    <div class="menu-toggle">
+                        <input type="checkbox" id="darkMode" class="toggle-input">
+                        <label for="darkMode" class="toggle-label"></label>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-icon">❓</div>
+                    <div class="menu-text">
+                        <h4>Central de ajuda</h4>
+                        <p>FAQ e suporte</p>
+                    </div>
+                    <div class="menu-arrow">›</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-icon">🔒</div>
+                    <div class="menu-text">
+                        <h4>Políticas de privacidade</h4>
+                        <p>Termos e condições</p>
+                    </div>
+                    <div class="menu-arrow">›</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-icon">⭐</div>
+                    <div class="menu-text">
+                        <h4>Recomendações</h4>
+                        <p>Indique para amigos</p>
+                    </div>
+                    <div class="menu-arrow">›</div>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <div class="menu-item logout-item" onclick="logout()">
+                    <div class="menu-icon">🚪</div>
+                    <div class="menu-text">
+                        <h4>Sair</h4>
+                        <p>Fazer logout da conta</p>
+                    </div>
+                    <div class="menu-arrow">›</div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="bottom-nav">
+            <div class="nav-item" onclick="window.location.href='home.html'">
+                <span>🏠</span>
+                <span>Home</span>
+            </div>
+            <div class="nav-item" onclick="window.location.href='agenda.html'">
+                <span>📅</span>
+                <span>Agenda</span>
+            </div>
+            <div class="nav-item">
+                <span>📋</span>
+                <span>Pedidos</span>
+            </div>
+            <div class="nav-item active">
+                <span>👤</span>
+                <span>Perfil</span>
+            </div>
+        </nav>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+

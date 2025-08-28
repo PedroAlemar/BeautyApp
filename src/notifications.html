@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificações - BeautyApp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container notifications-screen">
+        <header>
+            <div class="header-content">
+                <div class="back-icon" onclick="history.back()">←</div>
+                <h1>Notificações</h1>
+                <div class="profile-icon">
+                    <img src="images/profile default.jpg" alt="Profile" class="profile-img">
+                </div>
+            </div>
+        </header>
+
+        <div class="notifications-list">
+            <div class="notification-item confirmed">
+                <div class="notification-icon">✓</div>
+                <div class="notification-content">
+                    <h4>Confirmado - Lavagem de cabelo</h4>
+                    <p>Ter, Tarde às 14h00</p>
+                    <span class="notification-time">Há 2 horas</span>
+                </div>
+            </div>
+
+            <div class="notification-item confirmed">
+                <div class="notification-icon">✓</div>
+                <div class="notification-content">
+                    <h4>Confirmado - Lavagem de cabelo</h4>
+                    <p>Ter, Tarde às 14h00</p>
+                    <span class="notification-time">Há 4 horas</span>
+                </div>
+            </div>
+
+            <div class="notification-item confirmed">
+                <div class="notification-icon">✓</div>
+                <div class="notification-content">
+                    <h4>Confirmado - Lavagem de cabelo</h4>
+                    <p>Ter, Tarde às 14h00</p>
+                    <span class="notification-time">Há 6 horas</span>
+                </div>
+            </div>
+
+            <div class="notification-item confirmed">
+                <div class="notification-icon">✓</div>
+                <div class="notification-content">
+                    <h4>Confirmado - Lavagem de cabelo</h4>
+                    <p>Ter, Tarde às 14h00</p>
+                    <span class="notification-time">Há 8 horas</span>
+                </div>
+            </div>
+
+            <div class="notification-item reminder">
+                <div class="notification-icon">🔔</div>
+                <div class="notification-content">
+                    <h4>Lembrete - Próximo agendamento</h4>
+                    <p>Amanhã às 15h00 - Corte de cabelo</p>
+                    <span class="notification-time">Há 1 dia</span>
+                </div>
+            </div>
+
+            <div class="notification-item promotion">
+                <div class="notification-icon">🎉</div>
+                <div class="notification-content">
+                    <h4>Promoção especial!</h4>
+                    <p>20% de desconto em tratamentos faciais</p>
+                    <span class="notification-time">Há 2 dias</span>
+                </div>
+            </div>
+
+            <div class="notification-item cancelled">
+                <div class="notification-icon">✕</div>
+                <div class="notification-content">
+                    <h4>Cancelado - Massagem</h4>
+                    <p>Agendamento cancelado pelo cliente</p>
+                    <span class="notification-time">Há 3 dias</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="notification-actions">
+            <button class="btn-secondary">Marcar todas como lidas</button>
+            <button class="btn-primary">Configurar notificações</button>
+        </div>
+
+        <nav class="bottom-nav">
+            <div class="nav-item" onclick="window.location.href='home.html'">
+                <span>🏠</span>
+                <span>Home</span>
+            </div>
+            <div class="nav-item" onclick="window.location.href='agenda.html'">
+                <span>📅</span>
+                <span>Agenda</span>
+            </div>
+            <div class="nav-item">
+                <span>📋</span>
+                <span>Pedidos</span>
+            </div>
+            <div class="nav-item" onclick="window.location.href='profile.html'">
+                <span>👤</span>
+                <span>Perfil</span>
+            </div>
+        </nav>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
