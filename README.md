@@ -1,9 +1,10 @@
-💄 BeautyApp
+# BeautyApp
 
+## Descrição
 O BeautyApp é um projeto simples desenvolvido com o objetivo de praticar e aplicar conhecimentos em HTML, CSS e JavaScript.
 Ele simula uma aplicação voltada ao tema de beleza e estética, servindo como exercício de estruturação, estilização e manipulação de elementos na web.
 
-🧠 Objetivo
+## Objetivo
 
 Este projeto foi criado com fins de estudo, com foco em:
 
@@ -15,7 +16,7 @@ Implementar interatividade básica com JavaScript;
 
 Aprimorar boas práticas no desenvolvimento front-end.
 
-🧩 Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
 HTML5
 
@@ -23,7 +24,7 @@ CSS3
 
 JavaScript (ES6)
 
-🖥️ Funcionalidades (versão atual)
+### Funcionalidades (versão atual)
 
 Interface simples e responsiva;
 
@@ -34,7 +35,7 @@ Organização modular do código para melhor entendimento.
 🔧 Por se tratar de um projeto de estudo, o foco está na aplicação prática dos conceitos, e não em funcionalidades complexas.
 
 
-🚀 Como Executar
+## Como Executar
 
 Clone o repositório:
 
@@ -48,7 +49,7 @@ cd beautyapp
 
 Abra o arquivo index.html diretamente no navegador.
 
-📚 Aprendizados
+## Aprendizados
 
 Durante o desenvolvimento deste projeto, foram reforçados conceitos como:
 
@@ -60,7 +61,7 @@ Manipulação do DOM com JavaScript;
 
 Separação de responsabilidades entre estrutura, estilo e comportamento.
 
-🧑‍💻 Autor
+### Autor
 
 Pedro Augusto
 💻 Estudante de Desenvolvimento de Sistemas | Aspirante a Desenvolvedor Full Stack
